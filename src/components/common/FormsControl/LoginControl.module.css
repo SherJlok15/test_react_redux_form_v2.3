@@ -1,0 +1,47 @@
+.loginControl {
+  color: #9b9b9b;
+}
+
+.loginControl.error {
+  border-bottom: 1px solid #ed715c;
+}
+
+.errorText {
+  font-family: OpenSans;
+  position: absolute;
+  color: #ed715c;
+  font-size: 12px;
+}
+
+.visible {
+  font-family: OpenSans;
+  font-size: 12px;
+  opacity: 1;
+  transition:opacity 500ms;
+}
+
+.hidden {
+  font-family: OpenSans;
+  font-size: 12px;
+  opacity: 0;
+  transition:opacity 500ms;
+}
+
+.loginControl.inputField {
+  border-bottom: solid 1px #ebedf8;
+  color: #ebedf8;
+}
+
+.loginControl.inputActiveBorder {
+  border-bottom: solid 1px #9b9b9b;
+}
+
+.loginControl.validBorder {
+  border-bottom: solid 1px #46b688;
+  background: #fff;
+}
+
+.loginControl select {
+  color: #9b9b9b;
+  display: inline-block;
+}
